@@ -23,7 +23,19 @@ int main() {
     std::vector<torch::jit::IValue> inputs;
 
     Mat image = imread(image_path);
+
+    image = image(Rect(240,120,480,480));
+
+    imshow("Display window", image);
+
+    waitKey(0);
+
+    cout << static_cast<int>(image.rows) << endl << static_cast<int>(image.cols) << endl;
+
+    cout << image.size() << endl;
+
     resize(image, image, Size(112,112));
+
     image.convertTo(image, CV_32FC3, 1.0f / 255.0f);
 
     auto input_tensor = torch::from_blob(image.data, {1, 112, 112, 3});
@@ -37,10 +49,10 @@ int main() {
     input_tensor = input_tensor.to(at::kCUDA);
 
     torch::Tensor out_tensor = module.forward({input_tensor}).toTensor();
+
     cout << out_tensor.sizes() << endl;
     
-    // auto out_tensor_cvt = out_tensor;
-    // auto predict = std::get<0>(out_tensor);
     float prob = out_tensor[0][0].item<float>();
     cout << prob << endl;
+    return 0;
 }
