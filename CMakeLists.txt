@@ -5,13 +5,13 @@ add_definitions(-D_GLIBCXX_USE_CXX11_ABI=0)
 
 set(CMAKE_PREFIX_PATH /home/vinh/libtorch)
 
-find_package(Torch REQUIRED)
+#find_package(Torch REQUIRED)
 find_package(OpenCV REQUIRED)
 
-add_executable(example-app example-app.cpp)
+add_executable(example-app svm.cpp)
 
 target_link_libraries(example-app ${OpenCV_LIBS})
-target_link_libraries(example-app ${TORCH_LIBRARIES})
+#target_link_libraries(example-app ${TORCH_LIBRARIES})
 
 
 

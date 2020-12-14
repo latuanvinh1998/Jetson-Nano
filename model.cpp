@@ -15,20 +15,20 @@ int main() {
 	std::string model_path = "../model.pt";
     std::string image_path = "../test.jpg";
 
-    torch::jit::script::Module module = torch::jit::load(model_path);
-	std::cout << "Switch to GPU mode" << std::endl;
+ //    torch::jit::script::Module module = torch::jit::load(model_path);
+	// std::cout << "Switch to GPU mode" << std::endl;
 
-	module.to(at::kCUDA);
+	// module.to(at::kCUDA);
 
-    std::vector<torch::jit::IValue> inputs;
+ //    std::vector<torch::jit::IValue> inputs;
 
     Mat image = imread(image_path);
 
-    image = image(Rect(240,120,480,480));
+    // image = image(Rect(240,120,480,480));
 
-    imshow("Display window", image);
+    // imshow("Display window", image);
 
-    waitKey(0);
+    // waitKey(0);
 
     cout << static_cast<int>(image.rows) << endl << static_cast<int>(image.cols) << endl;
 
@@ -48,13 +48,13 @@ int main() {
 
     cout << input_tensor << endl;
 
-    input_tensor = input_tensor.to(at::kCUDA);
+    // input_tensor = input_tensor.to(at::kCUDA);
 
-    torch::Tensor out_tensor = module.forward({input_tensor}).toTensor();
+    // torch::Tensor out_tensor = module.forward({input_tensor}).toTensor();
 
-    cout << out_tensor.sizes() << endl;
+    // cout << out_tensor.sizes() << endl;
     
-    float prob = out_tensor[0][0].item<float>();
-    cout << prob << endl;
+    // float prob = out_tensor[0][0].item<float>();
+    // cout << prob << endl;
     return 0;
 }
