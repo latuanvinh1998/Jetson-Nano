@@ -58,3 +58,13 @@ int main() {
     // cout << prob << endl;
     return 0;
 }
+
+
+for(int i = 0; i < 127; i++)
+    {
+        x[i].index = i;
+        x[i].value = ((double) (i%2))/2;
+        cout << x[i].index << ": " << x[i].value << endl;
+    }
+
+    x[780].index = -1;
