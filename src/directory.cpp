@@ -135,7 +135,7 @@ void write_file_name_only(string* directory, string input){
 }
 
 int main() {
-  string** paths = new string*[100];
+  	string** paths = new string*[100];
 	for(int temp = 0; temp < 3; temp++){
 		paths[temp] = new string[1000];
 	}
@@ -150,7 +150,5 @@ int main() {
 
 	cout << "Finished" << endl;
 
-  torch::Tensor tensor = torch::rand({2, 3});
-  std::cout << tensor << std::endl;
 	return 0;
 }

@@ -235,7 +235,7 @@ int main()
     init();
     const char *error_msg;
 
-    read_problem("../test");
+    read_problem("../Data/train");
 
     error_msg = svm_check_parameter(&prob,&param);
 
@@ -247,7 +247,7 @@ int main()
 
     model = svm_train(&prob,&param);
 
-    if(svm_save_model("../test.model",model))
+    if(svm_save_model("../Data/svm.model",model))
     {
         fprintf(stderr, "can't save model to file %s\n", "test.model");
         exit(1);

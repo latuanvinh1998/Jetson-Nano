@@ -26,9 +26,9 @@ int main()
     struct svm_node *x;
     double predict_label;
 
-    if((model=svm_load_model("../test.model"))==0)
+    if((model=svm_load_model("../Data/svm.model"))==0)
     {
-        fprintf(stderr,"can't open model file %s\n","test.model");
+        fprintf(stderr,"can't open model file %s\n","svm.model");
         exit(1);
     }
 
@@ -40,8 +40,8 @@ int main()
 
     ////////////////////////////////////////////////////////////////////////////////////////////
 
-    std::string model_path = "../model.pt";
-    std::string image_path = "../test.jpg";
+    std::string model_path = "../Data/model.pt";
+    std::string image_path = "../Data/test.jpg";
 
     torch::jit::script::Module module = torch::jit::load(model_path);
 
