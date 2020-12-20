@@ -93,7 +93,7 @@ int main()
 
     predict_label = svm_predict_probability(model,x,prob_estimates);
 
-    cout << "Predict class " << predict_label << " with " << prob_estimates[(int) predict_label] << "%" << " confidence!" <<endl;
+    cout << "Predict class " << predict_label << " with " << 100 * prob_estimates[(int) predict_label] << "%" << " confidence!" <<endl;
 
     // for(int i =0; i < nr_class; i++)
     //     cout << labels[i] << ":  " << prob_estimates[i] << endl;
