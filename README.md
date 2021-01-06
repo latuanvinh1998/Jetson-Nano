@@ -23,7 +23,7 @@ https://github.com/AlphaQi/MTCNN-light
 ```
 ## Face Classifier:
 Using LibSVM for classification. 
-LibSVM can train on multi-class and can produce probability for each class - which can use for detect Unknown Identification. For more detail, see:
+LibSVM can train on multi-class and produce probability for each class - which can be used for detecting Unknown Identification. For more detail, see:
 ```bash
 https://github.com/cjlin1/libsvm
 ```
