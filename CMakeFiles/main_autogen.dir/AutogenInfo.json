@@ -1,0 +1,154 @@
+{
+	"BUILD_DIR" : "/home/vinh/Desktop/JetsonNano-ArcFace/main_autogen",
+	"CMAKE_BINARY_DIR" : "/home/vinh/Desktop/JetsonNano-ArcFace",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/vinh/Desktop/JetsonNano-ArcFace",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/vinh/Desktop/JetsonNano-ArcFace",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/vinh/Desktop/JetsonNano-ArcFace",
+	"HEADERS" : 
+	[
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/baseEngine.h",
+			"Mu",
+			"UVLADIE3JM/moc_baseEngine.cpp"
+		],
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/common.h",
+			"Mu",
+			"UVLADIE3JM/moc_common.cpp"
+		],
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/mtcnn.h",
+			"Mu",
+			"UVLADIE3JM/moc_mtcnn.cpp"
+		],
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/network.h",
+			"Mu",
+			"UVLADIE3JM/moc_network.cpp"
+		],
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/onet_rt.h",
+			"Mu",
+			"UVLADIE3JM/moc_onet_rt.cpp"
+		],
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/pBox.h",
+			"Mu",
+			"UVLADIE3JM/moc_pBox.cpp"
+		],
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/pnet_rt.h",
+			"Mu",
+			"UVLADIE3JM/moc_pnet_rt.cpp"
+		],
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/rnet_rt.h",
+			"Mu",
+			"UVLADIE3JM/moc_rnet_rt.cpp"
+		],
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/svm.h",
+			"Mu",
+			"UVLADIE3JM/moc_svm.cpp"
+		],
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/train_svm.h",
+			"Mu",
+			"UVLADIE3JM/moc_train_svm.cpp"
+		],
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/ui_window.h",
+			"Mu",
+			"UVLADIE3JM/moc_ui_window.cpp"
+		],
+		[
+			"/home/vinh/Desktop/JetsonNano-ArcFace/src/window.h",
+			"Mu",
+			"UVLADIE3JM/moc_window.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/vinh/Desktop/JetsonNano-ArcFace/main_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/vinh/Desktop/JetsonNano-ArcFace/main_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB",
+		"QT_WIDGETS_LIB",
+		"_GLIBCXX_USE_CXX11_ABI=0"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/vinh/Desktop/JetsonNano-ArcFace",
+		"/home/vinh/OpenBLAS/include",
+		"/usr/local/cuda/include",
+		"/home/vinh/TensorRT-7.2.1.6/include",
+		"/home/vinh/libtorch/include",
+		"/home/vinh/libtorch/include/torch/csrc/api/include",
+		"/usr/local/cuda-11.0/include",
+		"/usr/local/include/opencv",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQuick",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQml",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/local/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/vinh/Desktop/JetsonNano-ArcFace/main_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/vinh/Desktop/JetsonNano-ArcFace/CMakeFiles/main_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/vinh/Desktop/JetsonNano-ArcFace/CMakeFiles/main_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/vinh/Desktop/JetsonNano-ArcFace/src/baseEngine.cpp", "Mu" ],
+		[ "/home/vinh/Desktop/JetsonNano-ArcFace/src/common.cpp", "Mu" ],
+		[ "/home/vinh/Desktop/JetsonNano-ArcFace/src/main.cpp", "Mu" ],
+		[ "/home/vinh/Desktop/JetsonNano-ArcFace/src/mtcnn.cpp", "Mu" ],
+		[ "/home/vinh/Desktop/JetsonNano-ArcFace/src/network.cpp", "Mu" ],
+		[ "/home/vinh/Desktop/JetsonNano-ArcFace/src/onet_rt.cpp", "Mu" ],
+		[ "/home/vinh/Desktop/JetsonNano-ArcFace/src/pnet_rt.cpp", "Mu" ],
+		[ "/home/vinh/Desktop/JetsonNano-ArcFace/src/rnet_rt.cpp", "Mu" ],
+		[ "/home/vinh/Desktop/JetsonNano-ArcFace/src/svm.cpp", "Mu" ],
+		[ "/home/vinh/Desktop/JetsonNano-ArcFace/src/train_svm.cpp", "Mu" ],
+		[ "/home/vinh/Desktop/JetsonNano-ArcFace/src/window.cpp", "Mu" ]
+	],
+	"VERBOSITY" : 0
+}

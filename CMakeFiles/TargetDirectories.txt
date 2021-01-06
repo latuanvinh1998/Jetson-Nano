@@ -1,0 +1,4 @@
+/home/vinh/Desktop/JetsonNano-ArcFace/CMakeFiles/rebuild_cache.dir
+/home/vinh/Desktop/JetsonNano-ArcFace/CMakeFiles/edit_cache.dir
+/home/vinh/Desktop/JetsonNano-ArcFace/CMakeFiles/main.dir
+/home/vinh/Desktop/JetsonNano-ArcFace/CMakeFiles/main_autogen.dir
