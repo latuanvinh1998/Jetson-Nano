@@ -1,18 +1,18 @@
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(custom_ops)
 
-include_directories(/home/tanphatnguyen/.local/lib/python3.6/site-packages/torch/include/torch/csrc/api/include)
-include_directories(/home/tanphatnguyen/.local/lib/python3.6/site-packages/torch/include)
+include_directories(/home/vinh/.local/lib/python3.6/site-packages/torch/include/torch/csrc/api/include)
+include_directories(/home/vinh/.local/lib/python3.6/site-packages/torch/include)
 
-link_directories(/home/tanphatnguyen/.local/lib)
-link_directories(/home/tanphatnguyen/.local/lib/python3.6/site-packages/torch/lib)
+link_directories(/home/vinh/.local/lib)
+link_directories(/home/vinh/.local/lib/python3.6/site-packages/torch/lib)
 
-set(CMAKE_PREFIX_PATH /home/tanphatnguyen/.local/lib/python3.6/site-packages/torch)
-set(Torch_DIR /home/tanphatnguyen/.local/lib/python3.6/dist-packages/torch)
+set(CMAKE_PREFIX_PATH /home/vinh/.local/lib/python3.6/site-packages/torch)
+set(Torch_DIR /home/vinh/.local/lib/python3.6/dist-packages/torch)
 
 #OpenBlas
-include_directories(/home/tanphatnguyen/OpenBLAS/include)
-link_directories(/home/tanphatnguyen/OpenBLAS/lib)
+include_directories(/home/vinh/OpenBLAS/include)
+link_directories(/home/vinh/OpenBLAS/lib)
 
 #cuda
 include_directories(/usr/local/cuda/include)
